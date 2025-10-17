@@ -5,7 +5,6 @@ public class Mago extends Personagem {
         super(nome, 5, 7, 18, 70, 150);
     }
 
-    // Habilidade Passiva: Regeneração de Mana
     @Override
     public void processarStatus() {
         super.processarStatus();

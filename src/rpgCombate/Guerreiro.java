@@ -5,7 +5,6 @@ public class Guerreiro extends Personagem {
         super(nome, 15, 8, 5, 120, 50);
     }
     
-    // Habilidade Passiva: Pele Dura
     @Override
     public void receberDano(int dano) {
         int danoReduzido = (int) (dano * 0.80); // Reduz 20% do dano

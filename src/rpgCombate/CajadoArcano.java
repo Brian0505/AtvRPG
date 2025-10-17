@@ -8,7 +8,6 @@ public class CajadoArcano implements Arma {
             atacante.gastarMana(custoMana);
             int danoBase = 8;
             alvo.receberDano(danoBase);
-            // Efeito Especial: Queimadura
             System.out.println("Bola de Fogo! O alvo está em chamas.");
             alvo.aplicarStatus(new StatusEffect("Queimadura", 2, 10));
         } else {

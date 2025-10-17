@@ -1,6 +1,6 @@
 package rpgCombate;
 
-// Classe para gerenciar os efeitos de status aplicados nos personagens.
+
 public class StatusEffect {
     String nome;
     int duracao;
@@ -12,7 +12,6 @@ public class StatusEffect {
         this.danoPorTurno = danoPorTurno;
     }
 
-    // Aplica o efeito do turno e decrementa a duração.
     public boolean aplicar(Personagem alvo) {
         if (duracao > 0) {
             System.out.println(alvo.getNome() + " sofre " + danoPorTurno + " de dano de " + nome + "!");

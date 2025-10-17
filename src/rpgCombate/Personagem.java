@@ -64,7 +64,7 @@ public abstract class Personagem {
         return this.vida > 0;
     }
 
-    // Getters
+    
     public String getNome() { return nome; }
     public int getVida() { return vida; }
     public int getMana() { return mana; }

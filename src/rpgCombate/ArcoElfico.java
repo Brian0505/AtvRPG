@@ -1,7 +1,6 @@
 package rpgCombate;
 
-// Simplificação: no nosso caso, o ataque em área atinge apenas o alvo principal.
-// Para atingir múltiplos inimigos, a classe Batalha precisaria passar uma lista de alvos.
+
 public class ArcoElfico implements Arma {
      @Override
     public void usar(Personagem atacante, Personagem alvo) {
